@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+videoPlayer.o: videoPlayer.cpp.o
+.PHONY : videoPlayer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/main.cpp.o
-.PHONY : main.cpp.o
+videoPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.o
+.PHONY : videoPlayer.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+videoPlayer.i: videoPlayer.cpp.i
+.PHONY : videoPlayer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/main.cpp.i
-.PHONY : main.cpp.i
+videoPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.i
+.PHONY : videoPlayer.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+videoPlayer.s: videoPlayer.cpp.s
+.PHONY : videoPlayer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/main.cpp.s
-.PHONY : main.cpp.s
+videoPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.s
+.PHONY : videoPlayer.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... videoPlayer.o"
+	@echo "... videoPlayer.i"
+	@echo "... videoPlayer.s"
 .PHONY : help
 
 

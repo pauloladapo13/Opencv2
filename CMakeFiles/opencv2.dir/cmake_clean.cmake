@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opencv2.dir/main.cpp.o"
-  "CMakeFiles/opencv2.dir/main.cpp.o.d"
+  "CMakeFiles/opencv2.dir/videoPlayer.cpp.o"
+  "CMakeFiles/opencv2.dir/videoPlayer.cpp.o.d"
   "opencv2"
   "opencv2.pdb"
 )

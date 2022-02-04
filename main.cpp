@@ -7,19 +7,9 @@ int main(int argc, char** argv){
 
     if(img.empty()) return -1;
     cv:: namedWindow("Example1", cv::WINDOW_AUTOSIZE);
-    cv::imshow("Example2", img);
+    cv::imshow("Dog", img);
     cv::waitKey(0);
     cv::destroyWindow("Example1");
-
-
-
-
-
-
-
-
-
-
 
     return 0;
 }

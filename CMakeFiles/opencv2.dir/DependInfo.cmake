@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pauloladapo/Desktop/opencv2/main.cpp" "CMakeFiles/opencv2.dir/main.cpp.o" "gcc" "CMakeFiles/opencv2.dir/main.cpp.o.d"
+  "/Users/pauloladapo/Desktop/opencv2/videoPlayer.cpp" "CMakeFiles/opencv2.dir/videoPlayer.cpp.o" "gcc" "CMakeFiles/opencv2.dir/videoPlayer.cpp.o.d"
   )
 
 # Targets to which this target links.
