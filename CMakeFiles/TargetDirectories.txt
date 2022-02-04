@@ -1,0 +1,3 @@
+/Users/pauloladapo/Desktop/opencv2/CMakeFiles/opencv2.dir
+/Users/pauloladapo/Desktop/opencv2/CMakeFiles/edit_cache.dir
+/Users/pauloladapo/Desktop/opencv2/CMakeFiles/rebuild_cache.dir
