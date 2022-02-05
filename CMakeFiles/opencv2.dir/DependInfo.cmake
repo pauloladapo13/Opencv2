@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/pauloladapo/Desktop/opencv2/SimpleTransformation.cpp" "CMakeFiles/opencv2.dir/SimpleTransformation.cpp.o" "gcc" "CMakeFiles/opencv2.dir/SimpleTransformation.cpp.o.d"
+  "/Users/pauloladapo/Desktop/opencv2/PyramidownSampling.cpp" "CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o" "gcc" "CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o.d"
   )
 
 # Targets to which this target links.

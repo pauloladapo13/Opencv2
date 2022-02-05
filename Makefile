@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-SimpleTransformation.o: SimpleTransformation.cpp.o
-.PHONY : SimpleTransformation.o
+PyramidownSampling.o: PyramidownSampling.cpp.o
+.PHONY : PyramidownSampling.o
 
 # target to build an object file
-SimpleTransformation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.o
-.PHONY : SimpleTransformation.cpp.o
+PyramidownSampling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o
+.PHONY : PyramidownSampling.cpp.o
 
-SimpleTransformation.i: SimpleTransformation.cpp.i
-.PHONY : SimpleTransformation.i
+PyramidownSampling.i: PyramidownSampling.cpp.i
+.PHONY : PyramidownSampling.i
 
 # target to preprocess a source file
-SimpleTransformation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.i
-.PHONY : SimpleTransformation.cpp.i
+PyramidownSampling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.i
+.PHONY : PyramidownSampling.cpp.i
 
-SimpleTransformation.s: SimpleTransformation.cpp.s
-.PHONY : SimpleTransformation.s
+PyramidownSampling.s: PyramidownSampling.cpp.s
+.PHONY : PyramidownSampling.s
 
 # target to generate assembly for a file
-SimpleTransformation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.s
-.PHONY : SimpleTransformation.cpp.s
+PyramidownSampling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.s
+.PHONY : PyramidownSampling.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... SimpleTransformation.o"
-	@echo "... SimpleTransformation.i"
-	@echo "... SimpleTransformation.s"
+	@echo "... PyramidownSampling.o"
+	@echo "... PyramidownSampling.i"
+	@echo "... PyramidownSampling.s"
 .PHONY : help
 
 
