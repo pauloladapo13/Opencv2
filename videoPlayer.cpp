@@ -54,5 +54,6 @@ int main(int argc, char** argv){
         {g_run=-1; cout<<"Run mode, run= "<<g_run<<endl;}
     if(c ==27) break;
     }
+    cv::destroyAllWindows();
     return(0);
 }

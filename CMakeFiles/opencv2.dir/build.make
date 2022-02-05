@@ -69,28 +69,28 @@ include CMakeFiles/opencv2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv2.dir/flags.make
 
-CMakeFiles/opencv2.dir/edgeDetector.cpp.o: CMakeFiles/opencv2.dir/flags.make
-CMakeFiles/opencv2.dir/edgeDetector.cpp.o: edgeDetector.cpp
-CMakeFiles/opencv2.dir/edgeDetector.cpp.o: CMakeFiles/opencv2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pauloladapo/Desktop/opencv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv2.dir/edgeDetector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opencv2.dir/edgeDetector.cpp.o -MF CMakeFiles/opencv2.dir/edgeDetector.cpp.o.d -o CMakeFiles/opencv2.dir/edgeDetector.cpp.o -c /Users/pauloladapo/Desktop/opencv2/edgeDetector.cpp
+CMakeFiles/opencv2.dir/OpenCamera.cpp.o: CMakeFiles/opencv2.dir/flags.make
+CMakeFiles/opencv2.dir/OpenCamera.cpp.o: OpenCamera.cpp
+CMakeFiles/opencv2.dir/OpenCamera.cpp.o: CMakeFiles/opencv2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/pauloladapo/Desktop/opencv2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv2.dir/OpenCamera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opencv2.dir/OpenCamera.cpp.o -MF CMakeFiles/opencv2.dir/OpenCamera.cpp.o.d -o CMakeFiles/opencv2.dir/OpenCamera.cpp.o -c /Users/pauloladapo/Desktop/opencv2/OpenCamera.cpp
 
-CMakeFiles/opencv2.dir/edgeDetector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv2.dir/edgeDetector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pauloladapo/Desktop/opencv2/edgeDetector.cpp > CMakeFiles/opencv2.dir/edgeDetector.cpp.i
+CMakeFiles/opencv2.dir/OpenCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv2.dir/OpenCamera.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pauloladapo/Desktop/opencv2/OpenCamera.cpp > CMakeFiles/opencv2.dir/OpenCamera.cpp.i
 
-CMakeFiles/opencv2.dir/edgeDetector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv2.dir/edgeDetector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pauloladapo/Desktop/opencv2/edgeDetector.cpp -o CMakeFiles/opencv2.dir/edgeDetector.cpp.s
+CMakeFiles/opencv2.dir/OpenCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv2.dir/OpenCamera.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pauloladapo/Desktop/opencv2/OpenCamera.cpp -o CMakeFiles/opencv2.dir/OpenCamera.cpp.s
 
 # Object files for target opencv2
 opencv2_OBJECTS = \
-"CMakeFiles/opencv2.dir/edgeDetector.cpp.o"
+"CMakeFiles/opencv2.dir/OpenCamera.cpp.o"
 
 # External object files for target opencv2
 opencv2_EXTERNAL_OBJECTS =
 
-opencv2: CMakeFiles/opencv2.dir/edgeDetector.cpp.o
+opencv2: CMakeFiles/opencv2.dir/OpenCamera.cpp.o
 opencv2: CMakeFiles/opencv2.dir/build.make
 opencv2: /opt/homebrew/lib/libopencv_gapi.4.5.4.dylib
 opencv2: /opt/homebrew/lib/libopencv_stitching.4.5.4.dylib

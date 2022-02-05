@@ -19,5 +19,6 @@ int main(int argc, char** argv){
     cv::imshow("out3", img4);
     cv::waitKey(0);
 
+    cv::destroyAllWindows();
     return 0;
 }

@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-edgeDetector.o: edgeDetector.cpp.o
-.PHONY : edgeDetector.o
+OpenCamera.o: OpenCamera.cpp.o
+.PHONY : OpenCamera.o
 
 # target to build an object file
-edgeDetector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.o
-.PHONY : edgeDetector.cpp.o
+OpenCamera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.o
+.PHONY : OpenCamera.cpp.o
 
-edgeDetector.i: edgeDetector.cpp.i
-.PHONY : edgeDetector.i
+OpenCamera.i: OpenCamera.cpp.i
+.PHONY : OpenCamera.i
 
 # target to preprocess a source file
-edgeDetector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.i
-.PHONY : edgeDetector.cpp.i
+OpenCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.i
+.PHONY : OpenCamera.cpp.i
 
-edgeDetector.s: edgeDetector.cpp.s
-.PHONY : edgeDetector.s
+OpenCamera.s: OpenCamera.cpp.s
+.PHONY : OpenCamera.s
 
 # target to generate assembly for a file
-edgeDetector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.s
-.PHONY : edgeDetector.cpp.s
+OpenCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.s
+.PHONY : OpenCamera.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... edgeDetector.o"
-	@echo "... edgeDetector.i"
-	@echo "... edgeDetector.s"
+	@echo "... OpenCamera.o"
+	@echo "... OpenCamera.i"
+	@echo "... OpenCamera.s"
 .PHONY : help
 
 
