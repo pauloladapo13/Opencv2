@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-PyramidownSampling.o: PyramidownSampling.cpp.o
-.PHONY : PyramidownSampling.o
+edgeDetector.o: edgeDetector.cpp.o
+.PHONY : edgeDetector.o
 
 # target to build an object file
-PyramidownSampling.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o
-.PHONY : PyramidownSampling.cpp.o
+edgeDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.o
+.PHONY : edgeDetector.cpp.o
 
-PyramidownSampling.i: PyramidownSampling.cpp.i
-.PHONY : PyramidownSampling.i
+edgeDetector.i: edgeDetector.cpp.i
+.PHONY : edgeDetector.i
 
 # target to preprocess a source file
-PyramidownSampling.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.i
-.PHONY : PyramidownSampling.cpp.i
+edgeDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.i
+.PHONY : edgeDetector.cpp.i
 
-PyramidownSampling.s: PyramidownSampling.cpp.s
-.PHONY : PyramidownSampling.s
+edgeDetector.s: edgeDetector.cpp.s
+.PHONY : edgeDetector.s
 
 # target to generate assembly for a file
-PyramidownSampling.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/PyramidownSampling.cpp.s
-.PHONY : PyramidownSampling.cpp.s
+edgeDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/edgeDetector.cpp.s
+.PHONY : edgeDetector.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... PyramidownSampling.o"
-	@echo "... PyramidownSampling.i"
-	@echo "... PyramidownSampling.s"
+	@echo "... edgeDetector.o"
+	@echo "... edgeDetector.i"
+	@echo "... edgeDetector.s"
 .PHONY : help
 
 

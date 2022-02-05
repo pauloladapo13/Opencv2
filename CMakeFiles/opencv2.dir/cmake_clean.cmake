@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o"
-  "CMakeFiles/opencv2.dir/PyramidownSampling.cpp.o.d"
+  "CMakeFiles/opencv2.dir/edgeDetector.cpp.o"
+  "CMakeFiles/opencv2.dir/edgeDetector.cpp.o.d"
   "opencv2"
   "opencv2.pdb"
 )

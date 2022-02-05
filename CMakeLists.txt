@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-add_executable(opencv2 PyramidownSampling.cpp)
+add_executable(opencv2 edgeDetector.cpp)
 target_link_libraries(opencv2 ${OpenCV_LIBS})
