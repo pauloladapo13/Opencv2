@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-videoPlayer.o: videoPlayer.cpp.o
-.PHONY : videoPlayer.o
+SimpleTransformation.o: SimpleTransformation.cpp.o
+.PHONY : SimpleTransformation.o
 
 # target to build an object file
-videoPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.o
-.PHONY : videoPlayer.cpp.o
+SimpleTransformation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.o
+.PHONY : SimpleTransformation.cpp.o
 
-videoPlayer.i: videoPlayer.cpp.i
-.PHONY : videoPlayer.i
+SimpleTransformation.i: SimpleTransformation.cpp.i
+.PHONY : SimpleTransformation.i
 
 # target to preprocess a source file
-videoPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.i
-.PHONY : videoPlayer.cpp.i
+SimpleTransformation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.i
+.PHONY : SimpleTransformation.cpp.i
 
-videoPlayer.s: videoPlayer.cpp.s
-.PHONY : videoPlayer.s
+SimpleTransformation.s: SimpleTransformation.cpp.s
+.PHONY : SimpleTransformation.s
 
 # target to generate assembly for a file
-videoPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/videoPlayer.cpp.s
-.PHONY : videoPlayer.cpp.s
+SimpleTransformation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/SimpleTransformation.cpp.s
+.PHONY : SimpleTransformation.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... videoPlayer.o"
-	@echo "... videoPlayer.i"
-	@echo "... videoPlayer.s"
+	@echo "... SimpleTransformation.o"
+	@echo "... SimpleTransformation.i"
+	@echo "... SimpleTransformation.s"
 .PHONY : help
 
 
