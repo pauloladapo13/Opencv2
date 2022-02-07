@@ -129,29 +129,29 @@ opencv2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/build
 .PHONY : opencv2/fast
 
-OpenCamera.o: OpenCamera.cpp.o
-.PHONY : OpenCamera.o
+writer.o: writer.cpp.o
+.PHONY : writer.o
 
 # target to build an object file
-OpenCamera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.o
-.PHONY : OpenCamera.cpp.o
+writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/writer.cpp.o
+.PHONY : writer.cpp.o
 
-OpenCamera.i: OpenCamera.cpp.i
-.PHONY : OpenCamera.i
+writer.i: writer.cpp.i
+.PHONY : writer.i
 
 # target to preprocess a source file
-OpenCamera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.i
-.PHONY : OpenCamera.cpp.i
+writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/writer.cpp.i
+.PHONY : writer.cpp.i
 
-OpenCamera.s: OpenCamera.cpp.s
-.PHONY : OpenCamera.s
+writer.s: writer.cpp.s
+.PHONY : writer.s
 
 # target to generate assembly for a file
-OpenCamera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/OpenCamera.cpp.s
-.PHONY : OpenCamera.cpp.s
+writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv2.dir/build.make CMakeFiles/opencv2.dir/writer.cpp.s
+.PHONY : writer.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv2"
-	@echo "... OpenCamera.o"
-	@echo "... OpenCamera.i"
-	@echo "... OpenCamera.s"
+	@echo "... writer.o"
+	@echo "... writer.i"
+	@echo "... writer.s"
 .PHONY : help
 
 
